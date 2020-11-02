@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <div class="weather-app">
+      <div class="container">
+        <h1>☀️</h1>
+        <br />
+        <h2 id="city-name">Athens, Greece</h2>
+        <h4 id="date"></h4>
+        <br />
+        <h3>28°C ☀️ / 19°C 🌑</h3>
+        <br />
+        <form class="search-form" id="search-engine">
+          <div class="row">
+            <ul style="list-style-type: none">
+              <div class="col">
+                <li>Monday 28°C ☀️ / 19°C 🌑</li>
+              </div>
+              <div class="col">
+                <li>Tuesday 28°C ☀️ / 19°C 🌑</li>
+              </div>
+              <div class="col">
+                <li>Wednesday 28°C ☀️ / 19°C 🌑</li>
+              </div>
+              <div class="col">
+                <li>Thursday 28°C ☀️ / 19°C 🌑</li>
+              </div>
+              <div class="col">
+                <li>Friday 28°C ☀️ / 19°C 🌑</li>
+              </div>
+            </ul>
+          </div>
+          <br />
+          <input
+            type="search"
+            placeholder="Enter city name"
+            autofocus="on"
+            autocomplete="off"
+            style="width: 250px"
+            id="city-input"
+            ;
+          />
+          <input type="submit" value="search" style="width: 75px" />
+          <br />
+          <h6>
+            <em> Designed by Aneta Krzepicka </em>
+          </h6>
+        </form>
+        <script src="src/javascript.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
